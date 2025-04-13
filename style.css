@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #555;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.home-page {
+    background-image: url('images/background5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-page {
+    background-image: url('images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.about-content h1, 
+.about-content h2 {
+    text-align: center;
+}
+
+.about-content h3 {
+    text-align: left;
+}
+
+.about-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-page {
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-section {
+    margin-bottom: 20px;
+}
+
+.menu-section h2 {
+    margin-bottom: 10px;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section ul li {
+    margin-bottom: 5px;
+}
+
+.gallery-page {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.gallery-content {
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-images img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-page {
+    background-image: url('images/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content form label {
+    margin-bottom: 5px;
+}
+
+.contact-content form input, .contact-content form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-content form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reviews-page {
+    background-image: url('images/background4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.reviews-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review {
+    margin-bottom: 15px;
+}
